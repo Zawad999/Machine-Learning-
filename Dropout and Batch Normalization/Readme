@@ -1,0 +1,13 @@
+Hello and welcome to my project! I dove into an exciting area of machine learning by playing around with two key concepts: "dropout rates" and "batch normalization," all within a custom-built Convolutional Neural Network (CNN). Unlike many projects that use models made by others, I built my CNN model from the ground up, specifically to tackle a challenging task—understanding images from the CIFAR-100 dataset.
+
+What This Project Is About
+My goal was to see how changing the dropout rates (which is just a fancy way of saying how often I decide not to use some of the neurons during training) and using or not using batch normalization (a technique to make sure the data going into each layer is nicely scaled) affects the performance of my CNN model. I used the CIFAR-100 dataset for this. It's a collection of 60,000 images divided into 100 classes, which makes it a tough but interesting challenge for testing out my model.
+
+Inside This Folder
+You'll find a bunch of notebooks here. Each one is a different experiment where I tried out various combinations of dropout rates and batch normalization to see what happens. I named the notebooks in a straightforward way like Dropout_X_BatchNorm_Y.ipynb, where X is the dropout rate I used, and Y tells you whether I applied batch normalization (True or False). This makes it easy to pick out which experiment you might want to look at.
+
+About the Dataset
+For all my experiments, I used the CIFAR-100 dataset. It's a standard dataset used in machine learning for image recognition tasks, packed with 60,000 small images that are divided into 100 different classes. It's a great dataset for testing because it's complex enough to be challenging but also well-understood and widely used.
+
+Reading My Project Report
+I've put together all my findings, including the detailed results, discussions, and what I think it all means, in a project report. It's definitely worth a read if you're interested in the nitty-gritty of what I discovered. The report has all the insights, reasoning behind the results, and what implications they might have. You can find the project report here in the repository, named Project_Report.pdf.
